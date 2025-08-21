@@ -75,7 +75,7 @@ const Header = () => {
             <Link href="#">Link</Link>
 
             <div className="flex flex-1 justify-end items-center gap-2 sm:gap-4">
-              <button className="text-gray-700 hover:text-gray-900 sm:block">
+              <button className="text-gray-700 hover:text-gray-900 hidden sm:block">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 sm:h-6 sm:w-6 fill-none"
@@ -112,7 +112,7 @@ const Header = () => {
                     d="M5 8h14l-1.5 11.5a1 1 0 0 1-1 .5H7.5a1 1 0 0 1-1-.5L5 8zM9 8V6a3 3 0 1 1 6 0v2"
                   />
                 </svg>
-                <span className="absolute -top-0 -right-0.5 bg-black text-white text-[10px] sm:text-xs w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full flex items-center justify-center">
+                <span className="absolute -top-0 -right-0.5 bg-black text-white text-[10px]  sm:text-xs w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full flex items-center justify-center">
                   0
                 </span>
               </button>
