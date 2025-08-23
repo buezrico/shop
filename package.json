@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
     "@oslojs/crypto": "^1.0.1",
     "@oslojs/encoding": "^1.1.0",
     "@prisma/client": "^6.6.0",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^4.5.0",
     "lucide-react": "^0.540.0",
     "next": "15.3.0",
+    "next-sanity": "^10.0.13",
     "react": "^19.0.0",
+    "react-awesome-reveal": "^4.3.1",
     "react-dom": "^19.0.0",
+    "react-simple-typewriter": "^5.0.1",
+    "sanity": "^4.5.0",
+    "styled-components": "^6.1.19",
     "zod": "^3.24.2",
     "zustand": "^5.0.3"
   },
